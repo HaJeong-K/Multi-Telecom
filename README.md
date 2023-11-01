@@ -17,8 +17,8 @@
 - 역할
   + 팀원들이 희망하는 진로에 따라 역할을 분담함.
     + 데이터 분석 : [shinyeop hwang](https://github.com/HSYhrae), HaJeong-K(본인)
-    + 대시보드 제작 및 마케팅 관련 : [Sohyeon Choi](https://github.com/Sohyeon-Choi),
-    + 웹 배포 :
+    + 대시보드 제작 및 마케팅 관련 : [Sohyeon Choi](https://github.com/Sohyeon-Choi), [Sumin Choi](https://github.com/sumin0308)
+    + 웹 배포 : [Dongwon_Choi](https://github.com/DongWonC)
    
 - 데이터
   + 데이터는 캐글 데이터 셋 [Telco Customer Churn](https://www.kaggle.com/datasets/sibelius5/telco-customer-churn?select=Telco_customer_churn_cleaned.csv) 을 사용함.
