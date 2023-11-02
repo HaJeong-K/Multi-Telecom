@@ -120,3 +120,7 @@
   + 데이터 분석 : Cauasallmpact 라이브러리 리뷰 및 머신러닝 모델 학습 및 평가 수행, 통신사 대리점 지도시각화 마무리.
   + 대시보드 : Looker studio 제작을 위한 심화 공부 및 제작 준비. (및 추가 마케터 프로젝트로 광고 노출 확인.)
   + 웹 배포 : Django 복습 및 대시보드 UI 구상.
+
+- Trouble-shooting
+  + 디지털 배움터 크롤링을 하면서 제대로 알지 못해 오류가 생겼음.
+    + 해결방법을 찾아 해결했고, 블로그에 상세히 작성함. (https://forky-develop.tistory.com/entry/selenium-crawling)
