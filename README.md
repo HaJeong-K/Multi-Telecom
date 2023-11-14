@@ -21,7 +21,7 @@
     + 웹 배포 : [Dongwon_Choi](https://github.com/DongWonC)
    
 - 데이터
-  + 데이터는 캐글 데이터 셋 [Telco Customer Churn](https://www.kaggle.com/datasets/sibelius5/telco-customer-churn?select=Telco_customer_churn_cleaned.csv) 을 사용함.
+  + 데이터는 IBM 데이터 셋 [Telco Customer Churn](https://www.kaggle.com/datasets/sibelius5/telco-customer-churn?select=Telco_customer_churn_cleaned.csv) 을 사용함.
   + 국내, 해외 모두 통신사 관련 데이터는 존재하지 않아 가상의 데이터 셋을 사용함.
  
 <br>
