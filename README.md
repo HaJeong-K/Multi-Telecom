@@ -19,7 +19,7 @@
   + 팀원들이 희망하는 진로에 따라 역할을 분담함.
     + 데이터 분석 : [shinyeop hwang](https://github.com/HSYhrae), HaJeong-K(본인)
     + 대시보드 제작 및 마케팅 관련 : [Sohyeon Choi](https://github.com/Sohyeon-Choi), [Sumin Choi](https://github.com/sumin0308)
-    + 웹 배포 : [Dongwon_Choi](https://github.com/DongWonC)
+    + Streamlit : [Dongwon_Choi](https://github.com/DongWonC), HaJeong-K(본인)(문자 메세지 탭 구현, 스트림릿에 사용할 지도 시각화 생성부분.)
    
 - 데이터
   + 데이터는 IBM 데이터 셋 [Telco Customer Churn](https://www.kaggle.com/datasets/sibelius5/telco-customer-churn?select=Telco_customer_churn_cleaned.csv) 을 사용함.
@@ -42,7 +42,13 @@
 3. 2차 마케팅에 대한 방향성 토론.
    + 전반적인 마케팅 방안 보다 타겟층을 두고 마케팅을 하는 의견.
      + EDA를 기반으로 연령대로 분석한 부분에서 노령층의 이탈율이 높은 확실한 특징을 보이고 있어서 노령층을 타겟팅함.
-    
+<br>
+
+4. 마케팅 방안 및 프로젝트 방향성 토론.
+   + 멘토링 때 마케팅을 중점으로 두지말고 데이터 분석에 힘을 실는 방향으로 변경할 것을 들음.
+     + 이 부분은 팀원 구성이 모두 데이터 분석가, 엔지니어 등을 지망하는 것이 아니라 반려됨.
+   + 마케팅 방향의 미흡성을 보고 요금이나 결합과 관련한 부분의 추가 마케팅 방안 착안.
+     + 현직자분들이 가격관련 마케팅 방안을 좋지 않게 본다는 의견을 듣고 요금제같은 비용 부분은 하지 않으려 했으나, 미흡함을 인정하고 추가하기로 함.
 <br>
 
 ## 목표
@@ -302,15 +308,38 @@
 - 오늘 한 일
   + 데이터 분석 : 머신러닝 케이스별 앙상블 진행.
   + 대시보드 : 구글 스프레드 시트 학습, 마케팅 방안 최종 기획 및 이메일 발송할 내용 작성.
-  + 웹 배포 : Streamlit과 GCP, Bigquery, Github 연동.
+  + Streamlit : Streamlit과 GCP, Bigquery, Github 연동.
   + PPT : 전체적인 틀 확정, 프로젝트 개요부분 마무리.
  
 - 오늘 못한 일
   + 대시보드 : 마케팅 기대효과 기획.
-  + 웹 배포 : Streamlit 구성 추가.
+  + Streamlit : Streamlit 구성 추가.
  
 - 내일 할 일
-  + 데이터 분석 : 로컬환경에서 Twilio를 이용한 문자 발송 구현해보기.
+  + 데이터 분석 : 이탈 예측 머신러닝 모델별 하이퍼파라미터 튜닝 적용.
   + 대시보드 : 마케팅 기대효과 기획.
-  + 웹 배포 : Streamlit 구성 추가.
+  + Streamlit : Streamlit 구성 추가, 로컬환경에서 Twilio를 이용한 문자 발송 구현해보기.
   + PPT : 컨펌 전 ppt 마무리(EDA ~ 이탈 예측, 한계점 페이지 마무리).
+<br>
+
+[2023.11.16]
+- 오늘 한 일
+  + 데이터 분석 : 이탈 예측 머신러닝 모델별 하이퍼파라미터 튜닝 적용.
+  + 대시보드 : 루커 스튜디오 대시보드 수정, 구글 스프레드 시트 공부.
+  + Streamlit : sidebar, 메뉴 탭 개발, 문자메세지 전송 페이지.
+  + PPT : 이탈 예측, 기대효과, 한계점 부분 추가.
+ 
+- 오늘 못한 일
+  + 데이터 분석 : 이탈 예측 머신러닝 통합 모델 생성.
+  + 대시보드 : 마케팅 기대효과 기획.
+  + Streamlit : 지도 시각화 부분 탭 생성 및 추가, 문자메세지 전송버튼 구현.
+ 
+- 월요일 할 일
+  + 데이터 분석 : 이탈 예측 머신러닝 모델별 마무리 확인.
+  + 대시보드 : 마케팅 기대효과 기획.
+  + Streamlit : 지도 시각화 부분 탭 생성 및 추가, 문자메세지 전송버튼 마지막으로 확인.
+  + PPT : 이번주에 수정/추가 못한 부분 마무리.
+
+- Trouble-shooting
+  + 문자메세지 전송버튼의 기능이 제대로 구현되지 않음.
+    + 해당 부분에 대한 해결이 되지 않았으나, 한계점과 함께 진행한 내용을 작성함. (https://forky-develop.tistory.com/entry/twilio-with-python-streamlit)
