@@ -343,3 +343,23 @@
 - Trouble-shooting
   + 문자메세지 전송버튼의 기능이 제대로 구현되지 않음.
     + 해당 부분에 대한 해결이 되지 않았으나, 한계점과 함께 진행한 내용을 작성함. (https://forky-develop.tistory.com/entry/twilio-with-python-streamlit)
+<br>
+
+[2023.11.20]
+- 오늘 한 일
+  + 데이터 분석 : 이탈 예측 머신러닝 모델별 마무리 확인.
+  + 대시보드 : Side Project 캠페인 새로 작성.
+  + Streamlit : 문자메세지 전송 페이지.
+  + PPT : ppt 수정.
+ 
+- 오늘 못한 일
+  + Streamlit : 지도 시각화 부분 탭 생성 및 추가.
+  + PPT : ppt 수정.
+ 
+- 내일 할 일
+  + Streamlit : 지도 시각화 부분 탭 생성 및 추가.
+  + PPT : ppt 수정.
+
+- Trouble-shooting
+  + 문자메세지 전송버튼의 기능이 제대로 구현되지 않음.
+    + 해당 부분에 대한 문제점과 해결방법 및 결과물에 대한 내용을 작성함. (https://forky-develop.tistory.com/entry/twilio-streamlit-finish)
