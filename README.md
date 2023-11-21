@@ -363,3 +363,20 @@
 - Trouble-shooting
   + 문자메세지 전송버튼의 기능이 제대로 구현되지 않음.
     + 해당 부분에 대한 문제점과 해결방법 및 결과물에 대한 내용을 작성함. (https://forky-develop.tistory.com/entry/twilio-streamlit-finish)
+<br>
+
+[2023.11.21]
+- 오늘 한 일
+  + 대시보드 : GA4 보고서 학습.
+  + Streamlit : 지도 시각화 부분 탭 생성 및 추가.
+  + PPT : ppt 수정.
+ 
+- 오늘 못한 일
+  + 대시보드 : 마케팅 시나리오 수정.
+  + Streamlit : 페이지 기능 추가.
+  + PPT : ppt 수정.
+ 
+- 내일 할 일
+  + 대시보드 : 마케팅 시나리오 수정.
+  + Streamlit : 페이지 기능 추가.
+  + PPT : ppt 수정.
