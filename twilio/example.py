@@ -4,29 +4,13 @@ from PIL import Image
 from twilio.rest import Client
 
 def send_twilio_message(message_body, to_phone_number):
-    account_sid = 'AC6ace276241c9dc6937210cc98a449a68'
-    auth_token = 'a7d90f3377cfc6e62c1af55a784b0359'
+    account_sid = 'AC31cd4ff285aa2abe7a96856c2812b252'
+    auth_token = 'e8c357ab182216bb1452e1b56b4f0b39'
     twilio_client = Client(account_sid, auth_token)
 
     try:
         message = twilio_client.messages.create(
-            from_='+13344589434',
-            body=message_body,
-            to=to_phone_number
-        )
-        st.success("메시지가 성공적으로 전송되었습니다. SID: {}".format(message.sid))
-    except Exception as e:
-        st.error("메시지 전송 중 오류가 발생했습니다: {}".format(str(e)))
-
-# Twilio 메시지 전송 함수
-def send_twilio_message(message_body, to_phone_number):
-    account_sid = 'AC6ace276241c9dc6937210cc98a449a68'
-    auth_token = 'a7d90f3377cfc6e62c1af55a784b0359'
-    twilio_client = Client(account_sid, auth_token)
-
-    try:
-        message = twilio_client.messages.create(
-            from_='+13344589434',
+            from_='+17753414446',
             body=message_body,
             to=to_phone_number
         )
@@ -61,7 +45,7 @@ def main():
         - 접근 제어: Twilio 계정에 접근 권한을 제한하여 불법 접근 방지.
         - 보안 업데이트: Twilio 및 관련 서비스의 보안 업데이트 주기적으로 확인.
         
-        ※ 현재는 호스팅을 하지않은 상태로 해외 API를 사용하기 때문에 국외 발신으로 오는 것이 정상입니다. (스팸 아닙니다!)
+        ※ 현재 호스팅을 하지않은 상태로 해외 API를 사용하기 때문에 국외 발신으로 오는 것이 정상입니다. (스팸 아닙니다!)
     """)
 
     # 동의하기 버튼
