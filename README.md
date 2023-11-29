@@ -22,7 +22,7 @@
   + 팀원들이 희망하는 진로에 따라 역할을 분담함.
     + 데이터 분석 : [shinyeop hwang](https://github.com/HSYhrae), HaJeong-K(본인)
     + 대시보드 제작 및 마케팅 관련 : [Sohyeon Choi](https://github.com/Sohyeon-Choi), [Sumin Choi](https://github.com/sumin0308)
-    + Streamlit : [Dongwon_Choi](https://github.com/DongWonC), HaJeong-K(본인)(문자 메세지 탭 구현, 스트림릿에 사용할 지도 시각화 생성부분.)
+    + Streamlit : [Dongwon_Choi](https://github.com/DongWonC), HaJeong-K(본인)(문자 메세지 기능 및 탭 구현, 크롤링부터 지도 탭 구현까지 전부.)
    
 - 데이터
   + 데이터는 IBM 데이터 셋 [Telco Customer Churn](https://www.kaggle.com/datasets/sibelius5/telco-customer-churn?select=Telco_customer_churn_cleaned.csv) 을 사용함.
@@ -453,4 +453,34 @@
 - 내일 할 일
   + 대시보드 : GA4 보고서 학습.
   + Streamlit : 전체적인 기능 조정.
+  + PPT : ppt 수정.
+<br>
+
+[2023.11.28]
+- 오늘 한 일
+  + 대시보드 : GA4 보고서 학습.
+  + Streamlit : 전체적인 기능 조정.
+  + PPT : ppt 수정.
+ 
+- 오늘 못한 일
+  + Streamlit : 전체적인 기능 조정.
+ 
+- 내일 할 일
+  + 대시보드 : GA4 보고서 학습.
+  + Streamlit : 전체적인 기능 조정.
+  + PPT : ppt 수정.
+<br>
+
+[2023.11.29]
+- 오늘 한 일
+  + 대시보드 : GA4 보고서 학습.
+  + Streamlit : 지도 탭 구현.
+  + PPT : ppt 수정.
+ 
+- 오늘 못한 일
+  + Streamlit : 전체적인 기능 조정.
+ 
+- 내일 할 일
+  + 대시보드 : GA4 보고서 학습.
+  + Streamlit : 이메일 전송부분 문자 아래에 함께 추가하기.
   + PPT : ppt 수정.
