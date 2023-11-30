@@ -5,7 +5,7 @@
 
 ## 프로젝트 설명
 - 언어 : python, google colab, jupyter lab
-- 개발 환경 : Google Cloud Project (GCP), Looker studio, BigQuery, Django
+- 개발 환경 : Google Cloud Project (GCP), Looker studio, BigQuery, Streamlit
 - 인원 : 5명 (팀장 : [shinyeop hwang](https://github.com/HSYhrae), 팀원 4명)
 - 기간 : 2023.10.26 - 2023.12.05
 - 주요내용
@@ -483,4 +483,19 @@
 - 내일 할 일
   + 대시보드 : GA4 보고서 학습.
   + Streamlit : 이메일 전송부분 문자 아래에 함께 추가하기.
+  + PPT : ppt 수정.
+<br>
+
+[2023.11.30]
+- 오늘 한 일
+  + 대시보드 : GA4 보고서 학습 및 작성.
+  + Streamlit : 이메일 연동 구현.
+  + PPT : ppt 수정.
+ 
+- 오늘 못한 일
+  + Streamlit : 이메일 연동 구현.
+ 
+- 내일 할 일
+  + 대시보드 : GA4 보고서 학습.
+  + Streamlit : 이메일 연동 구현.
   + PPT : ppt 수정.
