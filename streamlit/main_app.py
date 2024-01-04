@@ -1,3 +1,7 @@
+import subprocess
+
+subprocess.call(['pip', 'install', '-r', 'requirements.txt'])
+
 # -*- coding:utf-8 -*-
 import os
 import requests
