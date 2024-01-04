@@ -5,7 +5,7 @@ import streamlit as st
 from PIL import Image
 from io import BytesIO
 
-import home_app, digital, KT, total
+from sub_app import home_app, digital, KT, total
 
 # 이미지를 가져오는 함수
 def fetch_image(url):
