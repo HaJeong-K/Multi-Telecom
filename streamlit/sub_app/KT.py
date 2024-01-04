@@ -6,7 +6,7 @@ import requests
 from io import BytesIO
 
 def main():
-    file_path = r'https://github.com/DongWonC/telecom_deploy/raw/main/Web/data/KT.xlsx'
+    file_path = r'https://github.com/HaJeong-K/Multi-Telecom/raw/main/streamlit/data/KT.xlsx'
     response = requests.get(file_path)
     
     if response.status_code == 200:
