@@ -34,7 +34,7 @@ def main():
             lat, lng = location['lat'], location['lng']
 
             html_popup = f'<strong>{name_type}</strong><br>{name}<br><br>{address}<br>전화번호 : <a href="tel:{phone}">{phone}</a><br>'
-            icon = folium.CustomIcon(icon_image = 'https://github.com/HaJeong-K/Multi-Telecom/raw/main/streamlit/image/red_marker.png', icon_size=(60, 60))
+            icon = folium.CustomIcon(icon_image = r'https://github.com/HaJeong-K/Multi-Telecom/raw/main/streamlit/image/red_marker.png', icon_size=(60, 60))
 
             folium.Marker(location=[lat, lng], icon=icon, popup=folium.Popup(html_popup, max_width=300)).add_to(m)
 
