@@ -1,6 +1,7 @@
 import subprocess
 
-subprocess.call(['pip', 'install', 'streamlit', 'folium==0.14.0'])
+subprocess.call(['pip', 'install', '-r', 'requirements.txt'])
+subprocess.call(['pip', 'install', 'streamlit', 'folium'])
 
 # -*- coding:utf-8 -*-
 import os
