@@ -48,5 +48,13 @@ def main():
     # Display the HTML map using components.v1.html
     st.components.v1.html(html_map, height=600)
 
+    st.markdown("""
+        GCP의 비용부과로 인스턴스를 중지해두어 마커가 나오지 않습니다.
+        아래의 사진을 참고해주세요!
+    """)
+
+    image_url = r'https://github.com/HaJeong-K/Multi-Telecom/raw/main/streamlit/image/digital_image.png'
+    st.image(image_url, caption='원래 보였던 지도기능', use_column_width=True)
+
 if __name__ == "__main__":
     main()
