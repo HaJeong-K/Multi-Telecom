@@ -2,16 +2,15 @@ import streamlit as st
 import requests
 from PIL import Image
 from twilio.rest import Client
-import re
 
 def send_twilio_message(message_body, to_phone_number):
-    account_sid = 'AC31cd4ff285aa2abe7a96856c2812b252'
-    auth_token = 'e8c357ab182216bb1452e1b56b4f0b39'
+    account_sid = 'AC6ace276241c9dc6937210cc98a449a68'
+    auth_token = 'a7d90f3377cfc6e62c1af55a784b0359'
     twilio_client = Client(account_sid, auth_token)
 
     try:
         message = twilio_client.messages.create(
-            from_='+17753414446',
+            from_='+13344589434',
             body=message_body,
             to=to_phone_number
         )
@@ -21,13 +20,13 @@ def send_twilio_message(message_body, to_phone_number):
 
 # Twilio 메시지 전송 함수
 def send_twilio_message(message_body, to_phone_number):
-    account_sid = 'AC31cd4ff285aa2abe7a96856c2812b252'
-    auth_token = 'e8c357ab182216bb1452e1b56b4f0b39'
+    account_sid = 'AC6ace276241c9dc6937210cc98a449a68'
+    auth_token = 'a7d90f3377cfc6e62c1af55a784b0359'
     twilio_client = Client(account_sid, auth_token)
 
     try:
         message = twilio_client.messages.create(
-            from_='+17753414446',
+            from_='+13344589434',
             body=message_body,
             to=to_phone_number
         )
@@ -41,7 +40,7 @@ def main():
         <h1 style='text-align: center;'>개인정보 수집 · 활용 동의서</h1>
     """, unsafe_allow_html=True)
 
-    image_url = "https://github.com/DongWonC/telecom_deploy/raw/main/Web/image/개인정보처리방침.png"
+    image_url = "https://github.com/HaJeong-K/Multi-Telecom/raw/main/twilio/개인정보처리방침.png"
     response = requests.get(image_url)
     
     if response.status_code == 200:
@@ -82,7 +81,7 @@ def main():
 1) 서울 지역 65세 이상 고객에게만 드리는 디지털 기기 무료 교육 이벤트♥
 가까운 디지털 배움터, 대리점, 플라자, 체험형 플라자에 방문하셔서 이용해 보세요!
 
-▶무료 교육에 대해 자세히 알아보기 : multitelecom.site:8501
+▶무료 교육에 대해 자세히 알아보기 : 링크
 
 서울 지역 디지털 기기 무료 교육
 ▶기간 : 2023.12.01.~2023.12.31.
