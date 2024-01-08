@@ -3,21 +3,6 @@ import requests
 from PIL import Image
 from twilio.rest import Client
 
-def send_twilio_message(message_body, to_phone_number):
-    account_sid = 'AC6ace276241c9dc6937210cc98a449a68'
-    auth_token = 'a7d90f3377cfc6e62c1af55a784b0359'
-    twilio_client = Client(account_sid, auth_token)
-
-    try:
-        message = twilio_client.messages.create(
-            from_='+13344589434',
-            body=message_body,
-            to=to_phone_number
-        )
-        st.success("메시지가 성공적으로 전송되었습니다. SID: {}".format(message.sid))
-    except Exception as e:
-        st.error("메시지 전송 중 오류가 발생했습니다: {}".format(str(e)))
-
 # Twilio 메시지 전송 함수
 def send_twilio_message(message_body, to_phone_number):
     account_sid = 'AC6ace276241c9dc6937210cc98a449a68'
